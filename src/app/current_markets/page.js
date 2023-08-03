@@ -10,8 +10,6 @@ export default function Page () {
       </div>
       <MarketsBox />
       <ProfileDropdown />
-
-
     </div>
 
   )
