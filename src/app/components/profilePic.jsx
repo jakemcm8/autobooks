@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function ProfilePic () {
   return(
     // <div className="relative">
-      <div className="fixed right-0 pr-2 z-30">
+      <div className="">
         <Image
         src="/../public/milady_4070.jpeg"
         alt=""

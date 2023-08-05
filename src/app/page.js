@@ -13,8 +13,8 @@ export default function Home() {
     <div className="w-full mt-24 fixed flex justify-center space-x-4 font-mono">
 
       <div className="w-full mt-24 fixed flex justify-center space-x-4">
-        <Link href="/current_markets" className="ring-[#00CECB]  bg-[#FFED66] hover:bg-[#fce958] hover:ring-[3px] text-[#FF5E5B] ring-2 rounded p-2">View Markets</Link>
-        <Link href="/create_market" className="ring-[#00CECB] bg-[#FFED66] hover:bg-[#fce958] hover:ring-[3px] text-[#FF5E5B] ring-2 rounded p-2">Create Market</Link>
+        <Link href="/current_markets/" className="ring-[#00CECB]  bg-[#FFED66] hover:bg-[#fce958] hover:ring-[3px] text-[#FF5E5B] ring-2 rounded p-2">View Markets</Link>
+        <Link href="/create_market/" className="ring-[#00CECB] bg-[#FFED66] hover:bg-[#fce958] hover:ring-[3px] text-[#FF5E5B] ring-2 rounded p-2">Create Market</Link>
       </div>
     </div>
 
