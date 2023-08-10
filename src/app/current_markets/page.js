@@ -4,11 +4,13 @@ import MarketsBox from '../components/marketsBox.jsx'
 
 export default function Page () {
   return (
-    <div className='bg-[#FFFFEA] flex bg-cover overflow-auto h-full w-full'>
-      <div className="">
-        <Link href=".."className="absolute text-5xl font-extrabold text-[#FF5E5B] justify-start pl-5 pt-3">Betty</Link>
+    <div className='bg-[#FFFFEA] justify-center items-center flex min-h-screen w-full'>
+      <div className="absolute text-5xl font-extrabold text-[#FF5E5B] left-5 top-3">
+        <Link href="..">Betty</Link>
       </div>
-      <MarketsBox />
+      <div className="absolute">
+        <MarketsBox />
+      </div>
       <ProfileDropdown />
     </div>
 

@@ -9,18 +9,17 @@ export default function SearchBar (props) {
   }
 
   const handleClick = () => {
-    if (search === 'Search...') {
-      setSearch('');
+    setSearch('');
     }
-    else {
-      setSearch('Search...')
+
+    const handleClickOff = () => {
+      setSearch('Search...');
     }
-  }
 
   return (
     <form className="focus:border-[#00CECB] p-1">
       <input className="border-2 rounded-lg focus:border-[#00CECB] border-[#00CECB] outline-none"
-           value={search} onClick={handleClick} onBlur={handleClick} onChange={handleChange}>
+           value={search} onClick={handleClick} onBlur={handleClickOff} onChange={handleChange}>
       </input>
     </form>
   )
