@@ -7,9 +7,9 @@ export default function ProfilePic () {
         <Image
         src="/../public/milady_4070.jpeg"
         alt=""
-        height="50"
-        width="50"
-        className="rounded-full"
+        height="55"
+        width="55"
+        className="rounded-full border-2 border-[#00CECB]"
         />
       {/* </div> */}
     </div>
