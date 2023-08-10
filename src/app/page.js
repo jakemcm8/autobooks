@@ -5,10 +5,8 @@ export default function Home() {
   return (
   <div className='bg-[#FFFFEA] fixed bg-cover overflow-auto h-full w-full'>
     <h1 className="text-5xl font-extrabold text-[#FF5E5B] flex justify-start pl-5 pt-3">Betty</h1>
-    <div className="fixed right-0">
-      <div>
-        <ProfileDropdown />
-      </div>
+    <div className="right-0">
+      <ProfileDropdown />
     </div>
     <div className="w-full mt-24 fixed flex justify-center space-x-4 font-mono">
 
