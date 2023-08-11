@@ -13,14 +13,14 @@ export default function ProfileDropdown () {
           </div>
           <div className="hidden group-hover:block bg-[#FFED66] border-2 border-[#00CECB] p-8 rounded-tl-lg rounded-b-lg fixed w-64 right-0 top-0 mt-[44px] mr-[32px] z-5">
             <div className="relative mt-4 grid gap-2">
-              <div>
-                <Link href="/portfolio" className="hover:border-2 hover:border-[#00CECB] rounded-lg py-1 hover:text-[#00CECB] text-[#FF5E5B]">Profile</Link>
+              <div className="">
+                <Link href="/portfolio" className="pr-24 pl-2 hover:border-2 hover:border-[#00CECB] rounded-lg py-1 hover:text-[#00CECB] text-[#FF5E5B]">Profile</Link>
               </div>
               <div>
-                <Link href="/" className="hover:border-2 hover:border-[#00CECB] hover:text-[#00CECB] text-[#FF5E5B] rounded-lg py-1">Settings</Link>
+                <Link href="/" className="pr-24 pl-2 hover:border-2 hover:border-[#00CECB] hover:text-[#00CECB] text-[#FF5E5B] rounded-lg py-1">Settings</Link>
               </div>
               <div>
-                <Link href="/" className="hover:border-2 hover:border-[#00CECB] hover:text-[#00CECB] text-[#FF5E5B] rounded-lg py-1">Logout</Link>
+                <Link href="/" className="pr-24 pl-2 hover:border-2 hover:border-[#00CECB] hover:text-[#00CECB] text-[#FF5E5B] rounded-lg py-1">Logout</Link>
               </div>
             </div>
           </div>
